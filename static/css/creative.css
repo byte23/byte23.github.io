@@ -485,3 +485,17 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+
+#contact {
+    background: #ddd;
+    
+}
+
+#contact a, #contact p {
+    color: #333;
+}
+
+#contact a:hover, #contact p:hover {
+    color: #ff9900;
+}

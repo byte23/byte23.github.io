@@ -9,20 +9,28 @@
             </div>
             
             <div class="col-lg-2 col-lg-offset-2 text-center">
-                <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                <p>{{ with .Site.Params.contact.phone }}{{ . }}{{ end }}</p>
+                <a href="tel:{{ with .Site.Params.contact.phone }}{{ . }}{{ end }}">
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p>{{ with .Site.Params.contact.phone }}{{ . }}{{ end }}</p>
+                </a>
             </div>
             <div class="col-lg-2 text-center">
-                <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p><a href="mailto:{{ with .Site.Params.contact.email }}{{ . }}{{ end }}">{{ with .Site.Params.contact.email }}{{ . }}{{ end }}</a></p>
+                <a href="mailto:{{ with .Site.Params.contact.email }}{{ . }}{{ end }}">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p>{{ with .Site.Params.contact.email }}{{ . }}{{ end }}</p>
+                </a>
             </div>
             <div class="col-lg-2 text-center">
-                <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p><a href="https://twitter.com/{{ with .Site.Params.contact.twitter }}{{ . }}{{ end }}">@{{ with .Site.Params.contact.twitter }}{{ . }}{{ end }}</a></p>
+                <a href="https://twitter.com/{{ with .Site.Params.contact.twitter }}{{ . }}{{ end }}">
+                    <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p>@{{ with .Site.Params.contact.twitter }}{{ . }}{{ end }}</p>
+                </a>
             </div>
             <div class="col-lg-2 text-center">
-                <i class="fa fa-facebook fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p><a href="https://facebook.com/{{ with .Site.Params.contact.facebook }}{{ . }}{{ end }}">{{ with .Site.Params.contact.facebook }}{{ . }}{{ end }}</a></p>
+                <a href="https://facebook.com/{{ with .Site.Params.contact.facebook }}{{ . }}{{ end }}">
+                    <i class="fa fa-facebook fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p>{{ with .Site.Params.contact.facebook }}{{ . }}{{ end }}</p>
+                </a>
             </div>
             
             
