@@ -40,8 +40,8 @@ theme = "creative"
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "IT solutions"
-		subtitle   = "More than 25 years of experience"
+		slogan   = "Software Development"
+        subtitle   = "More than 25 years of experience developing software"
 		buttonText = "Find out more"
 
 
@@ -58,24 +58,43 @@ theme = "creative"
 
         [[params.services.list]]
             icon = "fa-diamond"
-            title = "Sturdy Templates"
-            description = "Our templates are updated regularly so they don't break."
-
-        [[params.services.list]]
-			icon = "fa-paper-plane"
-			title = "Ready to Ship"
-			description = "You can use this theme as is, or you can make changes!"
+            title = "FrontEnd (UX)"
+            description = "We use AngularJs and D3 to create best of breed user experiences"
 
 		[[params.services.list]]
-            icon = "fa-newspaper-o"
-            title = "Up to Date"
-            description = "We update dependencies to keep things fresh."
+            icon = "fa-mobile"
+            title = "Mobile & Wearable"
+            description = "Native apps for Android, iOS and Pebble, and hybrid (cordova/ionic)"
+
+        [[params.services.list]]
+            icon = "fa-wifi"
+            title = "IoT"
+            description = "Internet of things, creation of devices and embedded software for arduino, raspberry or PICs"
+
+        [[params.services.list]]
+            icon = "fa-server"
+            title = "BigData"
+            description = "Certified and experienced on delivering high scalable solutions. Cassandra, MongoDB, ElasticSearch, Spark, Akka"
+
+        [[params.services.list]]
+			icon = "fa-cogs"
+			title = "Technics"
+			description = "Agile, Scrum. TDD and continuous delivery"
+
+        [[params.services.list]]
+            icon = "fa-bar-chart"
+            title = "Testing & Automation"
+            description = "Selenium, Cucumber, Docker, Vagrant, Ansible & Puppet"
+
+        [[params.services.list]]
+            icon = "fa-cloud"
+            title = "Cloud"
+            description = "On your own datacenter, private or public cloud (AWS or Google)"
 
         [[params.services.list]]
             icon = "fa-heart"
             title = "Made with Love"
-            description = "You have to make your websites with love these days!"
-
+            description = "We really love and share our passion for what we do"
 
     # Portfolio modals
 	[params.portfolio.modal]
