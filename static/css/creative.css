@@ -488,7 +488,7 @@ body {
 
 
 #contact {
-    background: #ddd;
+    background: #eee;
     
 }
 
@@ -498,4 +498,18 @@ body {
 
 #contact a:hover, #contact p:hover {
     color: #ff9900;
+}
+
+.google-maps {
+        position: relative;
+        padding-bottom: 65%;
+        height: 0;
+        overflow: hidden;
+};
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
