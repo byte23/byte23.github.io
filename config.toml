@@ -78,8 +78,8 @@ theme = "creative"
 
         [[params.services.list]]
 			icon = "fa-cogs"
-			title = "Technics"
-			description = "Agile, Scrum. TDD and continuous delivery"
+			title = "Techniques"
+			description = "Agile, Scrum, Jira. TDD and continuous delivery"
 
         [[params.services.list]]
             icon = "fa-bar-chart"
