@@ -97,11 +97,14 @@ theme = "creative"
             description = "We really love and share our passion for what we do"
 
     # Portfolio modals
-	[params.portfolio.modal]
-        client = "Client"
-        date = "Date"
-        category = "Category"
-        buttonText = "Close"
+		[params.portfolio]
+			headline = "Experience Portfolio"
+			subheadline = "More than 25 years of awesome projects"
+			[params.portfolio.modal]
+		        client = "Client"
+		        date = "Date"
+		        category = "Category"
+		        buttonText = "Close"
 
     # Aside section
 	[params.aside]

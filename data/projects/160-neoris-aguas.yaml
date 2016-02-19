@@ -1,0 +1,14 @@
+modalID: 160
+title: Aguas de Valencia (for neoris)
+date: 2012
+img: aguas_650_350.png
+client: neoris
+clientLink: "http://www.aguasdevalencia.es/"
+category: Development / Security testing / Continuous delivery
+description:
+  for neoris and Aguas de Valencia.
+  Developed integration between Alfresco and Jira,
+  and Alfresco and Lotus notes (throw IMAP protocol)
+  to facilitate project management according to ISO9001.
+  Executed security testing of applications and
+  added a continuous integration flow for quality assurance delivery.

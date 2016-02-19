@@ -294,7 +294,7 @@ header .header-content .header-content-inner p {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: rgba(255,165,0,.9);  
+    background: rgba(255,165,0,.9);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -498,7 +498,7 @@ body {
 
 #contact {
     background: #eee;
-    
+
 }
 
 #contact a, #contact p {
@@ -521,4 +521,9 @@ body {
     left: 0;
     width: 100% !important;
     height: 100% !important;
+}
+
+img.desaturate {
+  -webkit-filter: grayscale(80%);
+  filter: grayscale(80%);
 }
