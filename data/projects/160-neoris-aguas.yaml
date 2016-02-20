@@ -8,7 +8,6 @@ category: Development / Security testing / Continuous delivery
 description:
   for neoris and Aguas de Valencia.
   Developed integration between Alfresco and Jira,
-  and Alfresco and Lotus notes (throw IMAP protocol)
-  to facilitate project management according to ISO9001.
-  Executed security testing of applications and
+  and Alfresco and Lotus notes to facilitate project management
+  according to ISO9001. Executed security testing of applications and
   added a continuous integration flow for quality assurance delivery.
