@@ -1,12 +1,12 @@
 modalID: 115
 title: Flemish Biobank Initiative
 date: 2014 to 2015
-img: cmi_650_350.png
+img: cmi.png
 client: Flemish Biobank Initiative
 clientLink: "http://cmi-vzw.be"
 category: Web / Web Services / Digital signature / Biobanking
-# extraPic: cmi_extra.png
+# extraPic: cmi.png
 description: >-
-  for TheHyve, and Flemish Biobank Initiative (Belgium). 
-  Implemented a platform for sharing information betweeen research centers, 
+  for TheHyve (thehyve.nl), and Flemish Biobank Initiative (Belgium). 
+  Implemented a platform for sharing information between research centers, 
   and a portal for querying and interacting with statistics of this information.

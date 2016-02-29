@@ -1,0 +1,11 @@
+modalID: 230
+title: Comunidad de Madrid - Bienestar social
+date: 2009
+img: cmadrid.png
+client: Comunidad de Madrid - Bienestar social 
+clientLink: "http://www.servef.gva.es/"
+category: Development / Geolocalization / Mobile
+#extraPic: servef.png
+description:
+    With Indra, created a software for using disconnected mobile devices to gather inplace information of citizens.
+    The software used information of geolocalization, auto synchronize data when connection was available.  
