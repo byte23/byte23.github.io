@@ -276,6 +276,8 @@ header .header-content .header-content-inner p {
 
 .service-box p {
     margin-bottom: 0;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 .portfolio-box {

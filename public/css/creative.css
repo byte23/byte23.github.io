@@ -205,10 +205,19 @@ header .header-content {
 header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
+    /* text-transform: uppercase; */
+    font-weight: 700;
+    color: #ffaa00;
+    text-shadow: 1px 1px #000;
+}
+
+header .header-content .header-content-inner h2 {
+    margin-top: 0;
+    margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
-    color: rgba(255,165,0,.9);
-    text-shadow: 2px 2px #000;
+    color: #ffaa00;
+    text-shadow: 1px 1px #000;
 }
 
 header .header-content .header-content-inner hr {
@@ -486,7 +495,35 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
+
+#contact {
+    background: #eee;
+
+}
+
+#contact a, #contact p {
+    color: #333;
+}
+
+#contact a:hover, #contact p:hover {
+    color: #ff9900;
+}
+
+.google-maps {
+        position: relative;
+        padding-bottom: 65%;
+        height: 0;
+        overflow: hidden;
+};
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
 img.desaturate {
-  -webkit-filter: grayscale(10%) contrast(10%);
-  filter: grayscale(10%) contrast(10%);
+  -webkit-filter: grayscale(80%);
+  filter: grayscale(80%);
 }
