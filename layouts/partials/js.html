@@ -1,0 +1,52 @@
+{{ "<!-- jQuery -->" | safeHTML }}
+<script src="{{ .Site.BaseURL }}js/jquery.js"></script>
+{{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
+<script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
+{{ "<!-- Plugin JavaScript -->" | safeHTML }}
+<script src="{{ .Site.BaseURL }}js/jquery.easing.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/jquery.fittext.js"></script>
+<script src="{{ .Site.BaseURL }}js/wow.min.js"></script>
+{{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
+<script src="{{ .Site.BaseURL }}js/creative.js"></script>
+
+<script type="text/javascript" src="{{ .Site.BaseURL }}js/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#portfelems').slick({
+        dots: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [
+            {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+            }
+            },
+            {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+      });
+    });
+  </script>
