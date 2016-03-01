@@ -1,0 +1,16 @@
+modalID: 260
+title: Tissat
+date: 2001 to 2003
+img: tissat.png
+client: Tissat
+clientLink: "http://www.tissat.es/"
+category: R&D / Architecture / Development / Digital signature / eCommerce
+extraPic: tissat.jpg
+description:
+    Development of a product that allows to create web portals 
+    (mobiles, set top boxes, computers). On the ISUM project, 
+    we've been working doing the analysis, design and development of it's core, 
+    authentication and authorization modules, PKI, payment gateway integration, 
+    machine learning module for analyzing clickstreams, and messaging module. 
+    We also tested and improved his integration with multiple application servers, 
+    designed load testing and profiling.

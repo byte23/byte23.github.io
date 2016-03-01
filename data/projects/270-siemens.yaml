@@ -1,0 +1,13 @@
+modalID: 270
+title: Siemens Siemens (Argentina)
+date: 1996 to 2000
+img: siemens.png
+client: Siemens (Argentina)
+clientLink: "http://www.siemens.com/"
+category: Development / Digital signature / Payment
+#extraPic: Siemens.jpg
+description:
+    For Siemens and Pago facil.
+    Analysis and development of distributed point of sale platform with high security standards. 
+    We used PCs distributed in different locations on the city. The user can go to any POS and make the payment for services (gas, electricity, phone, etc.), transfer money, etc. 
+    That information was encrypted/verified and sent to our payment gateway.
