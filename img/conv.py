@@ -38,7 +38,7 @@ for fi in os.listdir('orig'):
     orig = fi
     dest = os.path.splitext(fi)[0]
     print 'fi :' + fi + "..." + dest
-    cmd = 'convert ./orig/%s -resize 420 -gravity center -extent 650x350 -background white ./portfolio/%s.png' % (fi, dest)
+    cmd = 'convert ./orig/%s -resize 440 -gravity center -extent 650x350 -background white ./portfolio/%s.png' % (fi, dest)
     print cmd
     print os.getcwd()
     shell(cmd)
