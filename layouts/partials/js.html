@@ -10,12 +10,18 @@
 <script src="{{ .Site.BaseURL }}js/creative.js"></script>
 
 <script type="text/javascript" src="{{ .Site.BaseURL }}js/slick.min.js"></script>
+<script type="text/javascript" src="{{ .Site.BaseURL }}js/plax.js"></script>
 
   <script type="text/javascript">
     $(document).ready(function(){
+      $('#logo').plaxify({"xRange":10,"yRange":10,"invert":true});
+      $('#slogan').plaxify({"xRange":20,"yRange":20,"invert":true});
+      $('#callaction').plaxify({"xRange":30,"yRange":30,"invert":true});
+      $.plax.enable();
+      
       $('#portfelems').slick({
         dots: true,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,

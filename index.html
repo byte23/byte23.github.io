@@ -74,11 +74,12 @@
     <div class="header-content">
         <div class="header-content-inner">
             <br><br>
-            <img src="./img/logo.png" width="240em" />
-            <h2>Software Development</h2>
-            <hr>
-            
-            <a href="#services" class="btn btn-primary btn-xl page-scroll">Find out more</a>
+            <img id="logo" src="./img/logo.png" width="240em" />
+            <h2 id="slogan">Software Development</h2>
+            <div id="callaction">                
+                <hr>
+                <a href="#services" class="btn btn-primary btn-xl page-scroll">Find out more</a>
+            </div>
         </div>
     </div>
 </header>
@@ -1327,12 +1328,18 @@
 <script src="http://byte23.com/js/creative.js"></script>
 
 <script type="text/javascript" src="http://byte23.com/js/slick.min.js"></script>
+<script type="text/javascript" src="http://byte23.com/js/plax.js"></script>
 
   <script type="text/javascript">
     $(document).ready(function(){
+      $('#logo').plaxify({"xRange":10,"yRange":10,"invert":true});
+      $('#slogan').plaxify({"xRange":20,"yRange":20,"invert":true});
+      $('#callaction').plaxify({"xRange":30,"yRange":30,"invert":true});
+      $.plax.enable();
+      
       $('#portfelems').slick({
         dots: true,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,

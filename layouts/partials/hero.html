@@ -3,11 +3,12 @@
     <div class="header-content">
         <div class="header-content-inner">
             <br><br>
-            <img src="./img/logo.png" width="240em" />
-            <h2>{{ with .Site.Params.hero.slogan }}{{ . }}{{ end }}</h2>
-            <hr>
-            
-            <a href="#services" class="btn btn-primary btn-xl page-scroll">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
+            <img id="logo" src="./img/logo.png" width="240em" />
+            <h2 id="slogan">{{ with .Site.Params.hero.slogan }}{{ . }}{{ end }}</h2>
+            <div id="callaction">                
+                <hr>
+                <a href="#services" class="btn btn-primary btn-xl page-scroll">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
+            </div>
         </div>
     </div>
 </header>
