@@ -1,0 +1,10 @@
+modalID: 108
+title: ing
+date: Jun 2016
+img: ing.png
+client: ING
+clientLink: "http://www.ing.nl"
+category: Development / Continuous Delivery / Virtualization
+description:
+  Development of several improvements for CDaaS (continuous delivery as a service) platform, an internal tool provided to the rest of the bank to speed up the delivery of the different projects. This includes integration of gitlab, jenkins, sonar, artifactory, nolio, ansible, vagrant, docker, nginx, cassandra, among others. 
+  Using python, java, nodejs as main development languages.

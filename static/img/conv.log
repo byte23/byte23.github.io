@@ -72,3 +72,13 @@
 2016-03-01 23:12:47,578 - convert - INFO - convert ./orig/servef.jpg -resize 440 -gravity center -extent 650x350 -background white ./portfolio/servef.png
 2016-03-01 23:12:48,666 - convert - INFO - convert ./orig/siemens.png -resize 440 -gravity center -extent 650x350 -background white ./portfolio/siemens.png
 2016-03-01 23:12:49,749 - convert - INFO - convert ./orig/tissat.jpg -resize 440 -gravity center -extent 650x350 -background white ./portfolio/tissat.png
+2017-02-21 09:50:06,228 - convert - INFO - convert ./orig/avs.jpg -resize 440 -gravity center -extent 650x350 -background white ./portfolio/avs.png
+2017-02-21 09:50:07,345 - convert - INFO - convert ./orig/cac.jpg -resize 440 -gravity center -extent 650x350 -background white ./portfolio/cac.png
+2017-02-21 09:50:08,408 - convert - INFO - convert ./orig/cmadrid.jpg -resize 440 -gravity center -extent 650x350 -background white ./portfolio/cmadrid.png
+2017-02-21 09:50:09,471 - convert - INFO - convert ./orig/contractiq-mobile-app-development-pricing-report.png -resize 440 -gravity center -extent 650x350 -background white ./portfolio/contractiq-mobile-app-development-pricing-report.png
+2017-02-21 09:50:10,600 - convert - INFO - convert ./orig/deutsche.jpg -resize 440 -gravity center -extent 650x350 -background white ./portfolio/deutsche.png
+2017-02-21 09:50:11,656 - convert - INFO - convert ./orig/ing.jpg -resize 440 -gravity center -extent 650x350 -background white ./portfolio/ing.png
+2017-02-21 09:50:12,757 - convert - INFO - convert ./orig/sanitat.jpg -resize 440 -gravity center -extent 650x350 -background white ./portfolio/sanitat.png
+2017-02-21 09:50:13,830 - convert - INFO - convert ./orig/servef.jpg -resize 440 -gravity center -extent 650x350 -background white ./portfolio/servef.png
+2017-02-21 09:50:14,946 - convert - INFO - convert ./orig/siemens.png -resize 440 -gravity center -extent 650x350 -background white ./portfolio/siemens.png
+2017-02-21 09:50:16,037 - convert - INFO - convert ./orig/tissat.jpg -resize 440 -gravity center -extent 650x350 -background white ./portfolio/tissat.png
